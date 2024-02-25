@@ -1,0 +1,11 @@
+<div class="toast-container">
+            <div id="myToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="true" data-bs-delay="5000">
+                <div class="toast-header">
+                    <strong class="me-auto"><%= request.getParameter("title")%></strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    ${ param.notification }
+                </div>
+            </div>
+</div>
